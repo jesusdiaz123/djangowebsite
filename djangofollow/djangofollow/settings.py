@@ -82,7 +82,7 @@ DATABASES = {
     'NAME': os.environ.get('QOVERY_POSTGRESQL_Z035F5B24_DEFAULT_DATABASE_NAME', 'postgres'),
     'USER': os.environ.get('QOVERY_POSTGRESQL_Z035F5B24_LOGIN', 'postgres'),
     'PASSWORD': os.environ.get('QOVERY_POSTGRESQL_Z035F5B24_PASSWORD'),
-    'HOST': os.environ.get('QOVERY_POSTGRESQL_Z035F5B24_HOST', 'z035f5b24-postgresql.||Q_DOMAIN||'),
+    'HOST': os.environ.get('QOVERY_POSTGRESQL_Z035F5B24_HOST', 'z035f5b24-postgresql.zd0485c10.rustrocks.cloud'),
     'PORT': os.environ.get('QOVERY_POSTGRESQL_Z035F5B24_PORT', 5432),
   }
 }
